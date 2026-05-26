@@ -10,7 +10,7 @@
 FOLDER_SUMBER="/home/donny/belajar-devops/project-backup/data"
 FOLDER_BACKUP="/home/donny/belajar-devops/project-backup/backup"
 FOLDER_LOG="/home/donny/belajar-devops/project-backup/logs"
-SIMPAN_BERAPA_HARI=30
+SIMPAN_BERAPA_HARI=60
 
 # --- VARIABEL OTOMATIS ---
 TANGGAL=$(date +"%Y-%m-%d_%H-%M-%S")
