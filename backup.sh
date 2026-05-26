@@ -37,4 +37,6 @@ find "$FOLDER_BACKUP" -name "backup_*.tar.gz" -mtime +$SIMPAN_BERAPA_HARI -delet
 echo "Backup lama sudah dibersihkan" >> $FILE_LOG
 echo "=============================" >> $FILE_LOG
 
+echo "=============================" >> $FILE_LOG
 echo "Backup selesai! Cek log di: $FILE_LOG"
+echo "[RSUD] Backup berhasil dijalankan oleh tim IT"
