@@ -39,4 +39,14 @@ echo "=============================" >> $FILE_LOG
 
 echo "=============================" >> $FILE_LOG
 echo "Backup selesai! Cek log di: $FILE_LOG"
+# --- NOTIFIKASI ---
+WAKTU_SELESAI=$(date +"%H:%M:%S")
+echo ""
+echo "================================================"
+echo "  NOTIFIKASI BACKUP RSUD"
+echo "  Status  : BERHASIL"
+echo "  Waktu   : $WAKTU_SELESAI"
+echo "  File    : $NAMA_FILE"
+echo "  Lokasi  : $FOLDER_BACKUP"
+echo "================================================"
 echo "[RSUD] Backup berhasil dijalankan oleh tim IT"
