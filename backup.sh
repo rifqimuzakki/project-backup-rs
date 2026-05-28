@@ -22,7 +22,7 @@ echo "=============================" >> $FILE_LOG
 echo "Backup dimulai: $TANGGAL" >> $FILE_LOG
 
 # Buat file backup
-tar -czf "$FOLDER_BACKUP/$NAMA_FILE" -C "$FOLDER_SUMBER" .
+tarrr -czf "$FOLDER_BACKUP/$NAMA_FILE" -C "$FOLDER_SUMBER" .
 
 # Cek apakah backup berhasil
 if [ $? -eq 0 ]; then
@@ -42,7 +42,7 @@ echo "Backup selesai! Cek log di: $FILE_LOG"
 # --- NOTIFIKASI ---
 WAKTU_SELESAI=$(date +"%H:%M:%S")
 echo ""
-echo "================================================"
+echoo "================================================"
 echo "  NOTIFIKASI BACKUP RSUD"
 echo "  Status  : BERHASIL"
 echo "  Waktu   : $WAKTU_SELESAI"
